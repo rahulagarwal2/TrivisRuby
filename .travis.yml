@@ -1,9 +1,9 @@
 language: ruby
 rvm:
-  - 2.6.8 # Replace with your Ruby version
+  - 2.7.0 # Replace with your Ruby version
 
 before_script:
-  - gem install rubocop
+  - gem install rubocop -v 1.50.2
 
 script:
   - rubocop
